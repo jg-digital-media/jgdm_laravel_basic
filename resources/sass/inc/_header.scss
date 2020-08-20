@@ -4,7 +4,21 @@
 
     img#main_logo {
         border-radius: 50%;
+        background-color: white;
+        margin: 20px;
+        width: 100px;
+        display: inline-block;
 
+    }
+
+    h1 {
+        text-align: center;
+        width: 546px;
+        display: inline-block;
+        /* vertical-align: revert; */
+        vertical-align: top;
+        position: relative;
+        top: 50px;
     }
 
     h2 {
@@ -12,6 +26,9 @@
     }
 
     .nav_container {
+        background: $mn-background;
+
+        width: 50%;
 
         @import "nav";
         

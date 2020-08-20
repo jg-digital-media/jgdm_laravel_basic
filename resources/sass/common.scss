@@ -5,9 +5,12 @@
     margin: 0;
 }
 
+body {
+    background: $mn-background;
+}
+
 html, body {
-    background-color: #fff;
-    color: #636b6f;
+    color: $mn-colour;
     font-family: 'Nunito', sans-serif;
     font-weight: 200;
     height: 100vh;
