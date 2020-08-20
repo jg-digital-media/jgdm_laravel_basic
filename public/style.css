@@ -2,25 +2,42 @@
   background: #636b6f;
   color: white; }
   .header img#main_logo {
-    border-radius: 50%; }
+    border-radius: 50%;
+    background-color: white;
+    margin: 20px;
+    width: 100px;
+    display: inline-block; }
+  .header h1 {
+    text-align: center;
+    width: 546px;
+    display: inline-block;
+    /* vertical-align: revert; */
+    vertical-align: top;
+    position: relative;
+    top: 50px; }
   .header h2 {
     text-align: center; }
-  .header .nav_container .nav_container {
-    background: #636b6f; }
-    .header .nav_container .nav_container #nav {
+  .header .nav_container {
+    background: #636b6f;
+    width: 50%; }
+    .header .nav_container #nav {
       width: 100%; }
-      .header .nav_container .nav_container #nav li {
+      .header .nav_container #nav li {
         display: inline-block; }
-        .header .nav_container .nav_container #nav li > a {
-          color: blue; }
+        .header .nav_container #nav li > a {
+          margin-left: 10px;
+          color: blue;
+          color: white; }
 
 * {
   padding: 0;
   margin: 0; }
 
+body {
+  background: #636b6f; }
+
 html, body {
-  background-color: #fff;
-  color: #636b6f;
+  color: white;
   font-family: 'Nunito', sans-serif;
   font-weight: 200;
   height: 100vh;
