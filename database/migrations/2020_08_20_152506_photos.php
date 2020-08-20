@@ -13,7 +13,14 @@ class Photos extends Migration
      */
     public function up()
     {
-        //
+        create::Schema('photos', function (Blueprint $table) {
+            $table->bigIncrements("id");
+            $table->string("photo_id");
+            $table->string("photo_title");
+            $table->string("photo_url");
+            //photo_url
+            $table->timestamps();
+        });
     }
 
     /**
