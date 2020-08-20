@@ -1,6 +1,13 @@
+@extends('main')
+
+@section('content')
+
+
+<h2>Photos List</h2>
+
 <article class="photo-container" id="photo_one">
                     
-    <h2>Photo-one</h2>
+    <h3>Photo-one</h3>
     
     <img src="{{asset('img/boo_v1.png')}}" />
                 
@@ -8,8 +15,10 @@
 
 <article class="photo-container" id="photo_two">
                     
-    <h2>Photo-two</h2>
+    <h3>Photo-two</h3>
     
     <img src="{{asset('img/boo_v2.png')}}" />
-                
-</article>
+     
+</article> 
+    
+@endsection

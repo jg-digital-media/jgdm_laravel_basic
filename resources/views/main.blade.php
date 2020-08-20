@@ -1,8 +1,8 @@
 @include("inc/header")
 
-            <section>
+            <section id="main-section">
 
-                   @include('photo')
+                   @yield('content')
 
             </section>
 

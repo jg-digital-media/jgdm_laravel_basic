@@ -1,5 +1,6 @@
 
                     <ul id="nav">
-                        <li><a href="{{('app_url')}}">Section 1</a></li>
-                        <li><a href="{{('app_url')}}">Section 2</a></li>
+                        <li><a href="{{env('app_url')}}/">Home</a></li>
+                        <li><a href="/photos">Photos</a></li>
+                        <li><a href="/about">About</a></li>
                     </ul>
