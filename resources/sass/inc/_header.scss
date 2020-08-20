@@ -1,0 +1,19 @@
+.header {
+    background: $hd-background; 
+    color: $hd-colour;
+
+    img#main_logo {
+        border-radius: 50%;
+
+    }
+
+    h2 {
+        text-align: center;
+    }
+
+    .nav_container {
+
+        @import "nav";
+        
+    }
+}

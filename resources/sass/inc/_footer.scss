@@ -1,0 +1,12 @@
+.footer {
+    background: $ft-background;
+    color: $ft-colour;
+
+    .links {
+        text-align: center;
+        
+        a {
+        color: $ft-colour;
+    }
+    }
+}
