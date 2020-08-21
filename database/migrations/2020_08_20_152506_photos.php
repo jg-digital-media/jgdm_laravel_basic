@@ -13,9 +13,9 @@ class Photos extends Migration
      */
     public function up()
     {
-        create::Schema('photos', function (Blueprint $table) {
+        Schema::create('photos', function (Blueprint $table) {
             $table->bigIncrements("id");
-            $table->string("photo_id");
+            $table->integer("photo_number");
             $table->string("photo_title");
             $table->string("photo_url");
             //photo_url
@@ -31,5 +31,6 @@ class Photos extends Migration
     public function down()
     {
         //
+        Schema::dropIfExists("photos");
     }
 }
