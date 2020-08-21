@@ -14,7 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', 'MainController@index');
-;
+
+
+Route::get('/', function () {
+    return view('home');
+    //return view('main');
+});
 
 Route::get('/photos', function () {
     return view('photos');
