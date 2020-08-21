@@ -1,23 +1,25 @@
+<?php $photos = ""; ?>
+
 @extends('main')
 
 @section('content')
 
-    <h2>Photos List</h2>
+<h2>Photos List</h2>
 
-    <article class="photo-container" id="photo_one">
+@foreach( $photos as $photo )
+
+    <article class="photo-container" id="photo_one">    
+
+        <article class="photo-container" id="photo_two">
+                            
+            <h3>{{ $photo->photo_title }}</h3> (<span id="photo_id">{{ $photo->photo_number }}</span> )
+            
+            <img src= "{{ $photo->photo_url }}" alt="alt" title="title" />
+            
+        </article> 
                     
-        <h3>Photo-one</h3>
-    
-        <img src="{{asset('img/boo_v1.png')}}" />
-                
     </article>
 
-    <article class="photo-container" id="photo_two">
-                    
-        <h3>Photo-two</h3>
-    
-        <img src="{{asset('img/boo_v2.png')}}" />
-                
-    </article>
+@endforeach
 
 @endsection

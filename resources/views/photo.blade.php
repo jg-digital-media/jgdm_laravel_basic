@@ -7,18 +7,17 @@
 
 <article class="photo-container" id="photo_one">
                     
-    <h3>Photo-one</h3>
-    
-    <img src="{{asset('img/boo_v1.png')}}" />
+    @foreach ($photos as $photo)
+        <article class="photo-container" id="photo_two">
+                            
+            <h3>{$course->photo_title}}</h3> (<span id="photo_id">{{ $photo->photo_number }})
+            
+            <img src="{{asset('{{$photo->photo_url}} />" alt="alt" title="title" />
+            
+        </article> 
+    @endforeach
                 
 </article>
-
-<article class="photo-container" id="photo_two">
-                    
-    <h3>Photo-two</h3>
     
-    <img src="{{asset('img/boo_v2.png')}}" />
-     
-</article> 
     
 @endsection
