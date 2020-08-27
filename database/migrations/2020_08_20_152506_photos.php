@@ -18,6 +18,7 @@ class Photos extends Migration
             $table->integer("photo_number");
             $table->string("photo_title");
             $table->string("photo_url");
+            $table->string("photo_description");
             //photo_url
             $table->timestamps();
         });
