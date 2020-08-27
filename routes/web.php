@@ -1,6 +1,7 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Photo;
 
 /*
 |--------------------------------------------------------------------------
@@ -22,7 +23,9 @@ Route::get('/', function () {
 });
 
 Route::get('/photos', function () {
-    return view('photos');
+
+    $photos = Photo::all();
+    return view('photos', compact('photos') );
     //return view('main');
 });
 
