@@ -25,12 +25,30 @@ html, body {
 
 
 //footer - common
-.links > a {
-    color: #636b6f;
+
+.links > li {
+    
     padding: 0 25px;
     font-size: 13px;
-    font-weight: 600;
     letter-spacing: .1rem;
+    display: inline-block;
+
+    @media (max-width: 680px) {
+        padding: 0 6px;
+    } 
+    
+    @media (max-width: 400px) {
+        padding: 0 0px;
+        display: block;
+        margin-left: 5px;
+    }
+}
+
+.links li a {
+    font-weight: 600;
+    letter-spacing: .1rem;        
+    color: #636b6f;
+    color: white;
     text-decoration: none;
     text-transform: uppercase;
 }
@@ -45,5 +63,9 @@ section {
     h2 {
         text-align: center;
         margin-top: 20px;
+
+        @media (max-width: 680px) {
+            margin: 0 20px;
+        }
     }
 }
