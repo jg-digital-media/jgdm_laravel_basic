@@ -1,0 +1,9 @@
+.about_container {
+    display: block;
+    margin: 0 auto;
+    width: 50%;
+    
+    @media (max-width: 680px) {
+        width: 90%;
+    }
+}
