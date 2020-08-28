@@ -28,7 +28,7 @@
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet">
 
         <!-- Styles -->
-        <link rel="stylesheet" type="text/css" href="{{asset('style.css')}}" />
+        <link rel="stylesheet" type="text/css" href="{{asset('style.css', 'true')}}" />
 
         <!-- Favicon -->
         <link rel="icon" href="favicon.png" type="image/png">
@@ -44,7 +44,7 @@
 
             <header class="header">
 
-                <img src="{{asset('img/logo.jpg')}}"  id="main_logo" alt="Main Logo" title="Main Logo" />
+                <img src="{{asset('img/logo.jpg', 'true')}}"  id="main_logo" alt="Main Logo" title="Main Logo" />
                 
                 <h1>Laravel Basic Website: Photo Album</h1>
 
