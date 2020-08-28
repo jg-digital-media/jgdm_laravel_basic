@@ -1,22 +1,51 @@
-.photo-container {
+.photo_container {
     margin: 0 auto;
     display: block;
     width: 90%;
+
+    @media (max-width: 680px) {
+        width: 100%;
+    }
 }
 
-.photo-item {
+.photo_item {
 
     width: 32%;
     display: inline-block;
+
+    @media (max-width: 680px) {
+        width: 90%;
+        display: block;
+        margin: 0 auto;
+    }
     
 
-    .col-one {
+    .col_one {
         display: inline-block;
         vertical-align: top; 
-        width: 70%;   
+        width: 90%;  
+        @media (max-width: 680px) {
+            width: 90%;
+            display: block;
+            margin: 10px auto;
+        } 
         
         img {
-            width: 50%;
+            /* width: 85%; */
+            width: 100%;
         }
+    }
+
+    .col_two {
+
+        width: 90%;
+        @media (max-width: 680px) {
+            width: 90%;
+            display: block;
+            margin: 10px auto;
+
+
+        }
+
     }
 }
