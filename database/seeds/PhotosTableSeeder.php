@@ -17,7 +17,7 @@ class PhotosTableSeeder extends Seeder
             'photo_number' => '1',
             'photo_title' => 'Boo: Headshot #1',
             'photo_url' => 'img/boo_v1.png',
-            'photo_description' => 'Boo: Headshot #1`'
+            'photo_description' => 'Boo: Headshot #1'
         ]);
         
         DB::table('photos')->insert([
