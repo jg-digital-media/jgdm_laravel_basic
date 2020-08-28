@@ -1,6 +1,11 @@
 .footer {
     background: $ft-background;
     color: $ft-colour;
+    display: block;
+    /* margin-top: 60px; */
+    position: relative;
+    top: 60px;
+}
 
     .links {
         text-align: center;
@@ -8,5 +13,5 @@
         a {
         color: $ft-colour;
     }
-    }
+    
 }

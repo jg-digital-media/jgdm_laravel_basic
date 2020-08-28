@@ -3,11 +3,17 @@
 
     li {
         display: inline-block;
+        font-weight: bold;
 
         > a {
             margin-left: 10px;
             color: blue;
             color: white;
+            text-decoration: none;
+
+            &:hover {
+                color: yellow;
+            }
         }
     }
 }
