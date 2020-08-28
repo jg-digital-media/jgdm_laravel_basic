@@ -1,15 +1,13 @@
 
             <footer class="footer">
-            
-                <div class="links">
                 
-                    <a href="{{env('app_url')}}/readme.md">Readme.md</a>
-                    <a href="/">Home</a>
-                    <a href="/photos">Photos</a>
-                    <a href="/about">About</a>
-                    <a href="https://github.com/jg-digital-media/laravel_basic" target="blank">GitHub</a>
-
-                </div>
+                <ul class="links">
+                    <li><a href="{{env('app_url')}}/readme.md">Readme.md</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/photos">Photos</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="https://github.com/jg-digital-media/laravel_basic" target="blank">GitHub</a></li>
+                </ul>
 
             </footer>
         

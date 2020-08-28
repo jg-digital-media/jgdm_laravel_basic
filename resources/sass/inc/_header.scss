@@ -7,6 +7,14 @@
     /* display: block; */
     text-align: center;
 
+    @media (max-width: 1560px) {
+
+    }
+
+    @media (max-width: 680px) {
+        height: 260px;
+    }
+
     img#main_logo {
         border-radius: 50%;
         background-color: white;
@@ -24,6 +32,16 @@
         vertical-align: top;
         position: relative;
         top: 50px;
+
+        @media (max-width: 720px) {
+            top: 0px;
+            width: 90%;
+        }
+
+        @media (max-width: 400px) {
+            /* font-size: 12px; */
+            font-size: 8vw;
+        }
     }
 
     h2 {
