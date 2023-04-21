@@ -1,8 +1,9 @@
 
-# Laravel Basics Photo Album  v2   - 16/02/2022 - 15-02
+# Laravel Basics Photo Album  v4 - 21/04/2023 - 11:18
 
 ## Project URL: https://jgdm-laravel-basic.herokuapp.com/
 
+## Notes
 3 Images Seeded to the database as a starting point.
 
 These are
@@ -13,5 +14,5 @@ These are
 
  Available at the photos Route.
 
- Note:  Query Exception currently displayed on photos Route -
-   +  https://jgdm-laravel-basic.herokuapp.com/photos - `SQLSTATE[HY000] [2002] Connection refused (SQL: select * from `photos`)`
+ **Note:** - Query Exception currently displayed on photos Route -
+   +  https://jgdm-laravel-basic.herokuapp.com/photos - `SQLSTATE[HY000] [2002] Connection refused (SQL: select * from 'photos')`
